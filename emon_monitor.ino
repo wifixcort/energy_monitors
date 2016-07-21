@@ -37,9 +37,9 @@
   **********************************************************************************
   */
 
-#include "EmonLib.h"// Include Emon Library
+#include <EmonLib.h>//https://github.com/openenergymonitor/EmonLib
+#include <SparkFunESP8266WiFi.h>//https://github.com/sparkfun/SparkFun_ESP8266_AT_Arduino_Library
 #include <SoftwareSerial.h>
-#include <SparkFunESP8266WiFi.h>
 #include <avr/wdt.h>
 
 // Replace these two character strings with the name and
